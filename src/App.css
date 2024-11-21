@@ -1,0 +1,94 @@
+.container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 700px;
+  margin: 50px auto;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: #ffe4e1;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: black;
+  text-shadow: 2px 2px red;
+  font-weight: bold;
+}
+
+.form {
+  margin: 20px 0;
+}
+
+.form label {
+  display: block;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.save-button {
+  background-color: #4caf50;
+  color: white;
+}
+
+.save-button:hover {
+  background-color: #45a049;
+}
+
+.edit-button {
+  background-color: yellow;
+  color: black;
+}
+
+.edit-button:hover {
+  background-color: #ffc107;
+}
+
+.delete-button {
+  background-color: #f44336;
+  color: white;
+}
+
+.delete-button:hover {
+  background-color: #e53935;
+}
+
+.record-list {
+  margin-top: 20px;
+}
+
+.record {
+  text-align: left;
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.dates {
+  display: flex;
+  justify-content: space-between;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
